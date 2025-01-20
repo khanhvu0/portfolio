@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Khanh Vu
+EMAIL: vukp1@uci.edu
+-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Khanh Vu">
+  <meta name="description" content="My Porfolio website">
+  <title>Portfolio - Khanh Vu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Header: name, school, picture -->
+  <header class="d-flex justify-content-between align-items-center my-5 pt-4 container">
+    <div class="text-start">
+      <h1>Khanh Vu</h1>
+      <p>Computer Science Student at University of California, Irvine</p>
+    </div>
+    <div>
+      <img src="linkedinphoto.jpeg" alt="Photo of myself" class="img-fluid rounded-circle" style="max-width: 100px;">
+    </div>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <!-- <a class="navbar-brand" href="#"></a> -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#introduction">Introduction</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#hobbies">Hobbies</a></li>
+          <li class="nav-item"><a class="nav-link" href="#work-experience">Work Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Resume sections -->
+  <main class="container mt-4">
+    <section id="introduction"  >
+      <h2>Introduction</h2>
+      <p>
+        Hi! I'm Khanh Vu, a CS undergrad at UC Irvine who's passionate about the dynamic and innovative world of software engineering. 
+        My journey in computer science has provided me with a solid foundation in object-oriented programming, 
+        algorithms, and data structures, along with hands-on experience in full-stack development using modern frameworks, 
+        databases, and AWS technologies. I thrive in collaborative environments, where I can learn on the fly and effectively 
+        manage my time to deliver results. I'm excited to take on new challenges that will expand my skill set, deepen my 
+        knowledge, and enable me to create software solutions that enrich lives and drive progress in the tech industry.
+      </p>
+    </section>
+
+    <section id="education"  >
+      <h2>Education</h2>
+      <p>University of California, Irvine - Computer Science, B.S.<br> 2022 - Dec 2025<br> 3.98 / 4.0 GPA</p>
+    </section>
+
+    <section id="skills"  >
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Programming Languages</strong>: Python, C/C++, Java, SQL, JavaScript, HTML/CSS</li>
+        <li><strong>Tools</strong>: Spring Boot, Django, AWS, Git, PostgreSQL, MySQL, MongoDB, React, React Native, Firebase, Docker, Jira</li>
+        <li><strong>Certification</strong>: AWS Certified Cloud Practitioner | Issued Jan 2024 - Jan 2027</li>
+      </ul>
+    </section>
+
+    <section id="hobbies"  >
+      <h2>Hobbies</h2>
+      <p>
+        In my free time, I enjoy playing sports (tennis, basketball, golf), playing the guitar, 
+        weight lifting, gaming, watching shows and movies, and exploring everything related to technology.
+      </p>
+    </section>
+
+    <section id="work-experience"  >
+      <h2>Work Experience</h2>
+      <ul>
+        <li><strong>CS Tutor</strong>, UCI ICS Tutoring Center (Oct 2024 - Present): Provide tutoring sessions in key CS courses at UCI.</li>
+        <li><strong>Software Engineering Intern</strong>, FPT Software (Jul 2023 - Sep 2023): Backend development with Java and Spring Boot.</li>
+      </ul>
+    </section>
+
+    <section id="projects"  >
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <strong>Guitar Chord Book:</strong> Full stack web app to search and save guitar chord diagrams into custom progressions. 
+          (<a href="https://guitarchordbook.onrender.com/" target="_blank">App link</a>) (<a href="https://github.com/khanhvu0/guitarapp_frontend" target="_blank">Github repo</a>)
+          <br>
+          <img src="guitar-chord-book.png" alt="Guitar Chord Book Project" class="img-fluid mt-2" style="max-width: 40%; height: auto;">
+          <br><br>
+        </li>
+        <li>
+          <strong>Tennis Analyzer:</strong> 3D motion analysis tool utilizing ML to analyze tennis strokes from videos.
+          (<a href="https://github.com/khanhvu0/TennisAnalyzer" target="_blank">Github repo</a>)
+          <br>
+          <video controls class="mt-2" style="max-width: 40%; height: auto;">
+            <source src="tennis-analyzer.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <br><br>
+        </li>
+        <li>
+          <strong>Stride:</strong> Mobile fitness and geolocation tracking app to promote community engagement and activeness.
+          (<a href="https://github.com/khanhvu0/IrvineHacks24/" target="_blank">Github repo</a>)
+          <br>
+          <img src="stride.png" alt="Stride Project" class="img-fluid mt-2" style="max-width: 40%; height: auto;">
+          <br><br>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact"  >
+      <h2>Contact Information</h2>
+      <ul>
+        <li>Email: kpvu0204@gmail.com</li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/khanh-vu-8ab001292/" target="_blank">https://www.linkedin.com/in/khanh-vu-8ab001292/</a></li>
+        <li>GitHub: <a href="https://github.com/khanhvu0" target="_blank">https://github.com/khanhvu0</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Copyright footer -->
+  <footer class="text-center py-4 bg-light">
+    <p>&copy; 2025 Khanh Vu.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
